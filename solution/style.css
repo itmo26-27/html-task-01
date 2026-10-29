@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: black;
+    background: whitesmoke;
+}
+
+.container {
+    width: 960px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+h1 {
+    margin: 0 0 32px;
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.events {
+    font-size: 0;
+}
+
+.card {
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    padding: 20px;
+    border: 2px solid navajowhite;
+    border-radius: 8px;
+    background: floralwhite;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.card:not(:last-child) {
+    margin-right: 30px;
+}
+
+.card_title {
+    margin: 0 0 8px;
+    font-size: 22px;
+}
+
+.card_date {
+    margin: 0 0 16px;
+    color: gray;
+    font-size: 14px;
+}
+
+.card_description {
+    margin: 0 0 16px;
+}
+
+.tags {
+    margin: 0 0 20px;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+}
+
+.tag {
+    display: inline-block;
+    margin: 0 6px 6px 0;
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: antiquewhite;
+    color: dimgray;
+    font-size: 13px;
+}
+
+.card_link {
+    display: inline-block;
+    color: darkred;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.card_link:hover {
+    color: orangered;
+    text-decoration: underline;
+}

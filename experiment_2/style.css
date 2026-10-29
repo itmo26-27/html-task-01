@@ -1,0 +1,15 @@
+body {
+    color: black;
+    background: whitesmoke;
+    width: 300px;
+}
+
+.first {
+    border: 1px solid red;
+    margin-bottom: 24px;
+}
+
+.second {
+    border: 1px solid red;
+    margin-top: 40px;
+}
