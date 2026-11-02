@@ -49,7 +49,6 @@ body {
     border-radius: 12px;
     background: #fff;
     text-align: left;
-    margin-bottom: 20px;
 }
 
 
@@ -76,7 +75,7 @@ body {
 
 
 .date, .description {
-    margin: 0 0 12px;
+    margin: 0 0 10px;
     line-height: 1.5;
 }
 
@@ -94,7 +93,7 @@ body {
 .tags {
     list-style: none;
     padding: 0;
-    margin: 0 0 12px;
+    margin: 0 0 10px;
 }
 
 
