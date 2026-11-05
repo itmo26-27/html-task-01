@@ -1,0 +1,16 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="512" height="288" viewBox="0 0 512 288">
+  <path fill="#c3c3c3" d="M0 0h512v288H0z"/>
+  <path d="m59 243 8-52-14-30 17-50 38-21 51 8 29 34-10 45 18 43-11 29-54-9-28 10Z" fill="#7dd040" stroke="#233c05" stroke-width="4"/>
+  <ellipse cx="90" cy="119" rx="26" ry="35" fill="white" stroke="black" stroke-width="3" transform="rotate(-13 90 119)"/>
+  <ellipse cx="145" cy="113" rx="24" ry="37" fill="white" stroke="black" stroke-width="3" transform="rotate(12 145 113)"/>
+  <ellipse cx="101" cy="122" rx="7" ry="13"/>
+  <ellipse cx="154" cy="118" rx="7" ry="13"/>
+  <path d="m86 179 66-8-14 27-41-1Z" fill="#421538" stroke="black" stroke-width="3"/>
+  <path d="m74 226-37 27m122-25 48 24" fill="none" stroke="#233c05" stroke-width="5"/>
+  <path d="m333 74 45-12 34 30 4 58-24 28-41-5-23-23-6-45Z" fill="#ffab29" stroke="#e16600" stroke-width="4"/>
+  <path d="m343 94 37-14 22 26-7 40-36 12-23-19 7-45 44 8-7 33-30 7-5-26 25-9 11 19-19 7" fill="none" stroke="#ffdd00" stroke-width="6"/>
+  <path d="m361 61-8-27m47 35 28-21m-7 59 33-8m-46 60 22 18m-81-7-19 20" stroke="#f38600" stroke-width="4"/>
+  <path d="m220 148 78-18-20-5m20 5-14 17" fill="none" stroke="blue" stroke-width="5"/>
+  <text x="214" y="52" fill="#ae0013" font-size="32" font-family="Comic Sans MS, cursive" transform="rotate(-7 214 52)">ДАЙ ДУШУ</text>
+  <text x="281" y="237" fill="#2100a9" font-size="24" font-family="Comic Sans MS, cursive" transform="rotate(7 281 237)">тактика ↑</text>
+</svg>

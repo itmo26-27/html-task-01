@@ -1,0 +1,22 @@
+.box {
+  width: 300px;
+  padding: 20px;
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+
+.border-box { box-sizing: border-box; }
+.content-box { box-sizing: content-box; }
+
+.margin-demo {
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.margin-first, .margin-second {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.margin-first { margin-bottom: 24px; }
+.margin-second { margin-top: 40px; }
