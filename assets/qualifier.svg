@@ -1,0 +1,19 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="512" height="288" viewBox="0 0 512 288">
+  <path fill="#c3c3c3" d="M0 0h512v288H0z"/>
+  <path d="m27 257 86-5 71 5 130-6 160 9" fill="none" stroke="#578f2a" stroke-width="5"/>
+  <path d="m165 44 49-15 50 17 17 63-19 65-22-50-8 53-34-11-25-58Z" fill="#3434d8"/>
+  <path d="m198 63 29-13 26 32-1 40-33 15-24-36Z" fill="white"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m209 85 9 1m16-4 9 2m-20 3-4 15 12-2m-20 14 29 1-6 9-17-1Z" stroke="#f29b4b" stroke-width="3"/>
+    <path d="m222 137-1 60-32 53m32-53 31 54m-31-88-42 29m42-29 55 16" stroke="#f28a35" stroke-width="4"/>
+    <path d="m180 46 26-14 36 2 11 12-73 7-9 12 27-5" stroke="#f00010" stroke-width="15"/>
+    <path d="m319 174 2 45-23 32m23-32 24 34m-24-54-23 9m23-9 31-6" stroke="#111" stroke-width="4"/>
+    <path d="m386 164-5 57-20 29m20-29 24 30m-22-57-24 7m24-7 28 12" stroke="#c900aa" stroke-width="4"/>
+  </g>
+  <ellipse cx="320" cy="152" rx="19" ry="23" fill="#fff" stroke="#111" stroke-width="3"/>
+  <ellipse cx="386" cy="141" rx="19" ry="22" fill="#fff" stroke="#c900aa" stroke-width="3"/>
+  <path d="m311 150 4 1m11-3 4 1m48-10 4 2m9-2 4-1" stroke="black" stroke-width="4"/>
+  <path d="m274 60 66 13-12-12m12 12-14 5" fill="none" stroke="red" stroke-width="3"/>
+  <text x="309" y="43" fill="#a40000" font-size="26" font-family="Comic Sans MS, cursive" transform="rotate(8 309 43)">это команда</text>
+  <text x="20" y="213" fill="blue" font-size="22" font-family="Comic Sans MS, cursive" transform="rotate(-12 20 213)">я капитан</text>
+</svg>
