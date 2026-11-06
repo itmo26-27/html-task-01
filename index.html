@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Времена спора - сезонные дебаты</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="container">
+        <header class="page-header">
+            <p class="eyebrow">Клуб открытых дебатов</p>
+            <h1>Времена спора</h1>
+            <p class="intro">Три сезона. Две стороны. А на чьей стороне ты?</p>
+        </header>
+
+        <section aria-labelledby="events-title">
+            <h2 id="events-title">Ближайшие встречи</h2>
+            <div class="events">
+                <article class="card winter">
+                    <img class="event-image event-image--winter" src="images/winter.png" alt="Снеговик в зелёной шапке и красном шарфе">
+                    <p class="date"><time datetime="2026-11-14T18:00">14 ноября 18:00</time></p>
+                    <h3>Зима: уют или испытание?</h3>
+                    <p>Снег и праздники против мороза и короткого дня. Какая сторона убедит тебя?</p>
+                    <ul class="tags">
+                        <li class="tag">Зима</li>
+                        <li class="tag">Дебаты</li>
+                    </ul>
+                    <a href="#winter-details">Подробнее</a>
+                </article>
+                <article class="card summer">
+                    <img class="event-image" src="images/summer.png" alt="Залитая солнцем летняя поляна с берёзами и цветами">
+                    <p class="date"><time datetime="2026-11-21T18:00">21 ноября 18:00</time></p>
+                    <h3>Лето: свобода или жара?</h3>
+                    <p>Одна команда расскажет о путешествиях, долгих прогулках и тёплых вечерах. Другая напомнит о духоте, комарах и бессонных ночах. Обсудим, всегда ли самое ожидаемое время года оправдывает надежды.</p>
+                    <ul class="tags">
+                        <li class="tag">Лето</li>
+                        <li class="tag">Дебаты</li>
+                    </ul>
+                    <a href="#summer-details">Подробнее</a>
+                </article>
+                <article class="card spring">
+                    <img class="event-image" src="images/spring.png" alt="Картина с весенним лесом, ручьём и тающим снегом">
+                    <p class="date"><time datetime="2026-11-28T18:00">28 ноября 18:00</time></p>
+                    <h3>Весна: обновление или слякоть?</h3>
+                    <p>Первые тёплые дни и пробуждение природы - или лужи, аллергия и непредсказуемая погода? Две команды попробуют доказать, стоит ли ждать весну с нетерпением.</p>
+                    <ul class="tags">
+                        <li class="tag">Весна</li>
+                        <li class="tag">Дебаты</li>
+                    </ul>
+                    <a href="#spring-details">Подробнее</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="details" aria-labelledby="details-title">
+            <h2 id="details-title">Как проходят дебаты</h2>
+            <p>Встречаемся в студенческом клубе. Вход свободный. На каждой встрече две команды выступают за и против сезона, а зрители задают вопросы и выбирают самые убедительные аргументы.</p>
+            <article id="winter-details">
+                <h3>14 ноября - обсуждаем зиму</h3>
+                <p><strong>За:</strong> зимний спорт, снег и праздничная атмосфера. <strong>Против:</strong> мороз, гололёд и нехватка солнца.</p>
+            </article>
+            <article id="summer-details">
+                <h3>21 ноября - обсуждаем лето</h3>
+                <p><strong>За:</strong> отдых, путешествия и долгий световой день. <strong>Против:</strong> жара, духота и насекомые.</p>
+            </article>
+            <article id="spring-details">
+                <h3>28 ноября - обсуждаем весну</h3>
+                <p><strong>За:</strong> тепло, зелень и новые силы. <strong>Против:</strong> слякоть, аллергия и резкие перемены погоды.</p>
+            </article>
+        </section>
+
+        <section class="experiments" aria-labelledby="experiments-title">
+            <h2 id="experiments-title">Эксперименты с CSS</h2>
+            <h3>Размеры карточки</h3>
+            <p>В инструментах разработчика выберите зимнюю карточку и замените box-sizing: border-box на content-box. Остальные свойства не меняйте.</p>
+            <p>Прогноз: с border-box внешняя ширина 300px, с content-box - 344px. Проверьте ширину карточки в инструментах разработчика. Затем верните border-box, чтобы три карточки снова стояли в один ряд.</p>
+
+            <h3>Схлопывание отступов</h3>
+            <p>У первого блока нижний отступ 24px, у второго верхний - 40px. Расстояние между ними - 40px.</p>
+            <div class="margin-example">
+                <div class="first-block">Первый блок: margin-bottom: 24px</div>
+                <div class="second-block">Второй блок: margin-top: 40px</div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
